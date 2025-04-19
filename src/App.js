@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:3001/api"; // Adjust if your backend is hosted differently
+const API_URL = "https://budgeting-backend-mjo5.onrender.com/api"; // Adjust if your backend is hosted differently
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
